@@ -27,7 +27,6 @@
 
 resetClicked.addEventListener('click', function onClick() {
   let change1 = document.getElementsByClassName("blockPage")[0];
-  if (change1 == undefined) return;
   change1.style.opacity = 0.2;
   opacityIndicator = 0;
   resetClicked.style.visibility = "hidden";
