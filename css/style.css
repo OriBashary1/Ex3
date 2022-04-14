@@ -391,4 +391,8 @@ header, main, footer, nav, aside, section, div {
         height: 50%;
         width: 500px;
     }
+
+    .layout3 header img {
+        margin-left: 205px;
+    }
 }
