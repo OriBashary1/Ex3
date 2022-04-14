@@ -8,7 +8,7 @@
         event.target.style.backgroundColor = "red";
       }
       block.onmouseout = function(event) {
-        event.target.style.removeProperty("background-color");;
+        event.target.style.removeProperty("background-color");
       }
       page.appendChild(block);
     }
